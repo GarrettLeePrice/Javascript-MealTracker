@@ -1,3 +1,13 @@
 h1 {
-  color: blue;
+  color: black;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+button {
+  margin-top: 20px;
 }

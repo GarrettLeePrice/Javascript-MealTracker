@@ -17,7 +17,6 @@ import { Meal } from './meal.model';
 
       <button (click)="editButtonHasBeenClicked(currentMeal)">Edit</button>
     </div>
-
   `
 })
 

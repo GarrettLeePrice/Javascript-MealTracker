@@ -17,10 +17,6 @@ import { Meal } from './meal.model';
 
 export class AppComponent {
   public masterMealList: Meal[] = [
-    new Meal("Tasty Tacos", "delicous tacos", 354),
-    new Meal("Meat Pie", "delicous tacos", 354),
-    new Meal("Fish Burritos", "delicous tacos", 354),
-    new Meal("Cat Tongue", "delicous tacos", 354),
   ];
   selectedMeal: Meal = null;
   showDetails(clickedMeal: Meal) {
