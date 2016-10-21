@@ -7,9 +7,7 @@ import { Meal } from './meal.model';
   <select (change)="onChange($event.target.value)">
     <option value="showAll" selected="selected">Show all meals</option>
     <option value="under500">Show meals under 500 calories</option>
-    <option value="over500">Show meals over 500 calories</option>
-
-  </select>
+    <option value="over500">Show meals over 500 calories</option></select>
     <div *ngFor="let currentMeal of childMealList | calorieAmount:selectedAmmount">
       <h2>{{ currentMeal.name }}</h2>
       <h5>Details: {{ currentMeal.details }}</h5>

@@ -11,3 +11,12 @@ textarea {
 button {
   margin-top: 20px;
 }
+
+.background {
+  height: 100%;
+  width: 100%;
+}
+
+.jumbotron {
+  margin-top: 50px;
+}
