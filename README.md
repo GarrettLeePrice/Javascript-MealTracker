@@ -1,12 +1,12 @@
-# _JS Template_
+# _Meal Tracker_
 
-#### _10-11-16_
+#### _10-21-16_
 
 #### By _**Garrett Price**_
 
 ## Description
 
-_This is a template for Angular projects at Epicodus. Includes files for npm bower dependencies, a gulpfile with all basic tasks and directory skeleton._
+_A meal tracking application. Users are able to log foods they've eaten each day, including details about the meal and its number of calories. Users can view a list of foods they have logged, a list of high-calorie foods (more than 500 calories), or a list of only lower-calorie foods (less than 500 calories).Users can click a food to edit its name, details or calories._
 
 ## Specifications
 
@@ -18,7 +18,7 @@ _This is a template for Angular projects at Epicodus. Includes files for npm bow
 
 _After cloning, run the following commands in the terminal to install packages:_
 
-`npm install -1`
+`npm install`
 
 `bower install`
 
