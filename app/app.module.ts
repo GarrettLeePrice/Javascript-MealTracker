@@ -12,7 +12,7 @@ import { EditMealComponent } from './edit-meal.component';
 @NgModule({
   imports: [
     BrowserModule,
-    FormsModule,
+    FormsModule
   ],
   declarations: [
     AppComponent,
